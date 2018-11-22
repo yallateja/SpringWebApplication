@@ -18,14 +18,13 @@
 
 <label>Operating Systems :</label>
 
-<ui>
+<ul>
 
-		<c:forEach items="${student.operatingSystems}" var="stu">
-		
+		<c:forEach items="${student.operatingSystems}" var="stu">		
 		<li>${stu}</li>
 		</c:forEach>
 
-</ui>
+</ul>
 
 </body>
 </html>
