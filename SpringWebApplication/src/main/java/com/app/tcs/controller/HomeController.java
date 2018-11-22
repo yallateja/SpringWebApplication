@@ -7,9 +7,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 	
 	@RequestMapping("/showHomePage")
-	public String showHomePage(){
+	public String showForm(){
 		
 		return "home";
+	}
+	
+	@RequestMapping("/processForm")
+	public String processForm(){		
+		return "showpage";
 	}
 
 }

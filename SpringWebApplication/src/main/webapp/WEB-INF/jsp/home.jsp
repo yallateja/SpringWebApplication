@@ -8,6 +8,11 @@
 </head>
 <body>
 
-Hello guys
+<form action="processForm" method="POST">
+<input type="text" name="studentName"/>
+
+<input type="submit"/>
+
+</form>
 </body>
 </html>
