@@ -1,5 +1,7 @@
 package com.app.tcs.controller;
 
+import java.util.LinkedHashMap;
+
 public class Student {
 	
 	private String firstName;
@@ -7,8 +9,24 @@ public class Student {
 	
 	private String country;
 	
+	private LinkedHashMap<String,String> countryList;
 	
+	public Student(){
+		countryList=new LinkedHashMap<String,String>();
+		//key will be value in JSP 
+		//dropdown IND,AUS will be populated
+		countryList.put("India", "IND");
+		countryList.put("Australia", "AUS");
+		countryList.put("United states", "USA");
+		
+	}
 	
+	public LinkedHashMap<String, String> getCountryList() {
+		return countryList;
+	}
+	public void setCountryList(LinkedHashMap<String, String> countryList) {
+		this.countryList = countryList;
+	}
 	public String getCountry() {
 		return country;
 	}
