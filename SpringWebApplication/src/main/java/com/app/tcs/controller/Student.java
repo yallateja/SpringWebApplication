@@ -11,6 +11,17 @@ public class Student {
 	
 	private LinkedHashMap<String,String> countryList;
 	
+	private String favLang;
+	
+	
+	public String getFavLang() {
+		return favLang;
+	}
+
+	public void setFavLang(String favLang) {
+		this.favLang = favLang;
+	}
+
 	public Student(){
 		countryList=new LinkedHashMap<String,String>();
 		//key will be value in JSP 

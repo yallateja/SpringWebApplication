@@ -21,7 +21,11 @@
 		<form:select path="country">			
 			<form:options items="${student.countryList}" />
 		</form:select><br>
-
+		
+		<label>Fav coding language :</label><br>
+		Java<form:radiobutton path="favLang" value="Java"/>
+		C++<form:radiobutton path="favLang" value="C++"/>
+		C<form:radiobutton path="favLang" value="C"/><br>
 
 		<input type="submit" />
 

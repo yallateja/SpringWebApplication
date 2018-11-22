@@ -12,7 +12,8 @@
 <label>First Name :</label> ${student.firstName}<br>
 <label>Last Name :</label> ${student.lastName}<br>
 
-<label>Country :</label> ${student.country}
+<label>Country :</label> ${student.country}<br>
+<label>Favourite Language :</label> ${student.favLang}
 
 </body>
 </html>
