@@ -10,7 +10,9 @@
 <body>
 <h2>Student Details !</h2>
 <label>First Name :</label> ${student.firstName}<br>
-<label>Last Name :</label> ${student.lastName}
+<label>Last Name :</label> ${student.lastName}<br>
+
+<label>Country :</label> ${student.country}
 
 </body>
 </html>
