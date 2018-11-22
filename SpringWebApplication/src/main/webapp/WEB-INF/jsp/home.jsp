@@ -26,6 +26,11 @@
 		Java<form:radiobutton path="favLang" value="Java"/>
 		C++<form:radiobutton path="favLang" value="C++"/>
 		C<form:radiobutton path="favLang" value="C"/><br>
+		
+		<label>Operating system :</label>
+		Windows<form:checkbox path="operatingSystems" value="Windows"/>
+		Linux<form:checkbox path="operatingSystems" value="Linux"/>
+		Unix<form:checkbox path="operatingSystems" value="Unix"/><br>
 
 		<input type="submit" />
 
